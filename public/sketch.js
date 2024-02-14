@@ -12,7 +12,7 @@ function setup() {
 }
 
 async function generateImage() {
-  const response = await fetch('https://queer-cards-7n7zjm3eg-marlonbarrios.vercel.app/api/image', {
+  const response = await fetch('/api/image', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
